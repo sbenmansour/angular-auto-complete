@@ -851,10 +851,10 @@
             scope: {},
             controllerAs: 'ctrl',
             bindToController: {
-                index: '<',
-                renderItem: '<',
-                searchText: '<',
-                itemTemplateLinkFn: '<'
+                index: '=',
+                renderItem: '=',
+                searchText: '=',
+                itemTemplateLinkFn: '='
             },
             controller: function () { },
             link: function (scope, element) {
@@ -913,8 +913,8 @@
             scope: {},
             controllerAs: 'ctrl',
             bindToController: {
-                template: '<',
-                searchText: '<'
+                template: '=',
+                searchText: '='
             },
             controller: function () { },
             link: function (scope, element) {
